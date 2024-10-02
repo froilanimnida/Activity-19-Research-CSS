@@ -1,0 +1,34 @@
+h1 {
+	font-weight: 700; /* Make the text bold */
+}
+
+.box-model {
+	background-color: #f0f0f0; /* Set the background color */
+	width: 200px; /* Set the width of the element */
+	height: 200px; /* Set the height of the element */
+	border: 1px solid #000; /* Add a border around the element */
+	padding: 10px; /* Add padding inside the element */
+	margin: 10px; /* Add margin outside the element */
+}
+
+.divider {
+	border-top: 1px solid #000; /* Add a top border to the element */
+	margin-top: 20px; /* Add margin to the top of the element */
+	height: 40px; /* Set the height of the element */
+	width: 100%; /* Set the width of the element */
+}
+
+.flex {
+	display: flex; /* Use flexbox layout */
+	justify-content: space-between; /* Distribute the items evenly */
+	align-items: center; /* Center the items vertically */
+	gap: 10px; /* Add space between the items */
+}
+
+.flex-col {
+	display: flex; /* Use flexbox layout */
+	flex-direction: column; /* Arrange the items vertically */
+	justify-content: center; /* Center the items horizontally */
+	align-items: center; /* Center the items vertically */
+	gap: 10px; /* Add space between the items */
+}

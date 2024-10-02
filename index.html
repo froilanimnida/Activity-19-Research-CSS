@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="styles.css" />
+
+		<style>
+			/* Font demo */
+			.font {
+				font-family: 'Courier New', Courier, monospace; /* Font family to Courier New */
+				font-size: 1.5rem; /* Font size to 1.5rem */
+				font-weight: bold; /* Font weight to bold */
+				font-style: italic; /* Font style to italic */
+				text-transform: uppercase; /* Text transform to uppercase */
+			}
+
+			/* Position demo */
+			.position-demo {
+				position: relative;
+				width: 500px;
+				height: 500px;
+				background-color: #000000;
+			}
+
+			.box-1 {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				position: absolute;
+				top: 100px;
+				left: 100px;
+			}
+
+			.box-2 {
+				width: 100px;
+				height: 100px;
+				background-color: blue;
+				position: absolute;
+				top: 50px;
+				left: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Hello World</h1>
+
+		<div class="box-model"></div>
+
+		<div class="flex">
+			<h1>Lorem ipsum dolor sit amet.</h1>
+			<h1>Qui eius cupiditate atque omnis?</h1>
+			<h1>Nobis quos incidunt cupiditate vel?</h1>
+		</div>
+
+		<div class="divider"></div>
+
+		<div class="flex-col">
+			<h1>Lorem ipsum dolor sit amet.</h1>
+			<h1>Qui eius cupiditate atque omnis?</h1>
+			<h1>Nobis quos incidunt cupiditate vel?</h1>
+		</div>
+
+		<h1 class="font">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+			nesciunt praesentium, consequuntur modi nisi aut nemo atque porro,
+			exercitationem consectetur omnis beatae culpa esse deleniti?
+		</h1>
+
+		<div class="position-demo">
+			<div class="box-1"></div>
+			<div class="box-2"></div>
+		</div>
+	</body>
+</html>
